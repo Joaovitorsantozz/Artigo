@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo">
+               <img src="lg.png" width="30%" height="30%">
+            </a>
+            <p>Colegio PM</p>
+            <ul class="navlist">
+                <li><a>Sobre</a></li>
+                <li><a>Artigos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <!-- <a class="xxx">
+            <img src="autor.png" width="96px" height="96px">
+        </a> -->
+
+        <div class="introduction">
+            <h2>Sobre a Pesquisa</h2>
+
+            <p>
+                Durante o segundo bimestre no Colégio da Polícia Militar Cruz Azul (Unidade Sorocaba), foi dirigida um trabalho para os alunos do segundo ano do médio,
+                que estavam cursando a disciplina de observatório de fênomenos biólogicos, no itinerário de exatas. O trabalho constitua em os alunos, 15 ao total, se dividirem 
+                em grupos de 3 integrantes cada um, com o intuito de realizar pesquisas científicas sobre um assunto não determinado. O tema foi livre para todos os grupos, deixando
+                assim livre para a criatividade de cada um deles. O teor da pesquisa também foi deixado de acordo com a preferência do grupo, podendo ser uma pesquisa baseada em uma experiência,
+                ou uma pesquisa baseada em contagem de dados, porém teria de ser realizadas por nós mesmos.
+            </p>
+        </div>
+    </section>
+    <section class="foto">
+        <img src="autor.png" width="30%" height="30%">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien magna, congue vel quam vel,
+            hendrerit consectetur mi. Sed a scelerisque est. Quisque ut sodales risus, sed dignissim nibh. Curabitur
+            laoreet bibendum tortor eu faucibus. Integer suscipit scelerisque enim ut ultricies. Duis vitae ex
+            nulla. Nunc malesuada mi non ligula ullamcorper, id posuere ex ultrices. In ultricies lectus sed urna
+            egestas, vulputate malesuada tortor porttitor. Vestibulum eleifend rutrum metus sit amet vulputate. Cras
+            id libero sit amet nibh faucibus egestas eget eget enim. In condimentum sed velit nec aliquet. Sed ac
+            libero erat.
+        </p>
+    </section>
+
+
+
+    
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header=document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY >0);
+        })
+    </script>
+</body>
+
+</html>

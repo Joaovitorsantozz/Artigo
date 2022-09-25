@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="/public/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo">
+               <img src="../public/images/lg.png" width="30%" height="30%">
+            </a>
+            <p>Colegio PM</p>
+            <ul class="navlist">
+                <li><a href="?busca=home">Sobre</a></li>
+                <li><a >Artigos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+    
+}
+
+body{
+    height: 200vh;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity:0.4;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    top: 0;
+    left: 0;
+}
+
+.logo p{
+    font-size: 20px;
+  
+}
+header{
+    z-index: 1000;
+    position:fixed;
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    transition:0.6s;
+}
+header nav p{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sticky{
+    background: rgb(0, 91, 148);    
+}
+
+.sticky a{
+    color: white;
+}
+
+.sticky p{
+    color: white;
+}
+.navlist {
+    list-style: none;
+    display: flex;
+}
+
+.navlist li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+
+section {
+    margin-left: 10%;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(220, 220, 220);
+    margin-top: 90px;
+}
+
+section h2 {
+    color: rgb(30, 30, 30);
+    text-align: center;
+    font-size: 30px;
+    border-width: 0;
+    border-bottom: 2px; 
+    border-style: solid;
+    border-color: black; 
+}
+
+section p{
+    text-align: justify;
+    color: rgb(20,20,20);
+    margin: 20px;
+    font-size: 18px;
+}
+
+.foto{
+    display: flex;
+}
+.foto img{
+    float: left;
+}
+
+.artigos{
+    display: flex;
+    top:0;
+    left:0;
+}
+
+.artigos p{
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+.dev{
+    display: flex;
+    margin-top: 20px;
+}
+
+.dev p{
+    font-size: 20px;
+}
+
+.dev img{
+    margin-top: 22px;
+}
+
+.who{
+    margin-top: 5px;
+    margin-right: 20px;
+    text-align: center;
+    color:gray;
+    font-size: 12px;
+}
