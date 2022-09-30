@@ -1,5 +1,5 @@
 <%- include('partials/header.html') %>
-<!DOCTYPE html>
+    <!DOCTYPE html>
     <section>
         <!-- <a class="xxx">
             <img src="autor.png" width="96px" height="96px">
@@ -22,39 +22,46 @@
         </div>
     </section>
     <section class="foto">
-        <img src="../public/images/autor.png" width="30%" height="30%">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien magna, congue vel quam vel,
-            hendrerit consectetur mi. Sed a scelerisque est. Quisque ut sodales risus, sed dignissim nibh. Curabitur
-            laoreet bibendum tortor eu faucibus. Integer suscipit scelerisque enim ut ultricies. Duis vitae ex
-            nulla. Nunc malesuada mi non ligula ullamcorper, id posuere ex ultrices. In ultricies lectus sed urna
-            egestas, vulputate malesuada tortor porttitor. Vestibulum eleifend rutrum metus sit amet vulputate. Cras
-            id libero sit amet nibh faucibus egestas eget eget enim. In condimentum sed velit nec aliquet. Sed ac
-            libero erat.
-        </p>
+        <img src="../public/images/caution.png" width="20%" height="20%">
+
+        <ul>
+
+            Este não é um site oficial da instituição de ensino Cruz Azul, foi feito por mim, João Vitor dos Santos,
+            no
+            intuito de publicar nossos trabalhos de pesquisa científica, e facilitar consequentemente, sua
+            vizualização
+            por outros alunos e/ou professores.
+
+            Foi utilizado neste site as seguintes tecnologias :
+            <li>Node.js para rodar o servidor</li>
+            <li>HTML e CSS como linguagens de marcação</li>
+            <li>Javascript para realizar as animações</li>
+            A visualização do código fonte pode ser vista por inteira apartir do meu <a href="https://github.com/Joaovitorsantozz/Artigo" target="_blank">repositório Github</a>
+        </ul>
+
     </section>
 
 
-    <section class="artigos">
+    <div class="artigos">
         <div class="model">
             <h2>Artigo 1</h2>
-            <a><img src="../public/images/thumb.png" width="200px" height="247px"></a>
-            <p><a href="/?busca=atg">Clique aqui para ler</a></p>
+            <a href="/?busca=atg"><img class="sample" src="../public/images/thumb.png" width="200px" height="247px"></a>
+            <p><b>Contaminação escolar</b></p>
         </div>
         <div class="model">
             <h2>Artigo 2</h2>
-            <a><img src="../public/images/thumb.png" width="200px" height="247px"></a>
-            <p><a href="/?busca=atg2">Clique aqui para ler</a></p>
+            <a href="/?busca=atg2"><img class="sample"  src="../public/images/thumb.png" width="200px" height="247px"></a>
+            <p><b>Mini ecosistemas</b></p>
         </div>
         <div class="model">
             <h2>Artigo 3</h2>
-            <a><img src="../public/images/thumb.png" width="200px" height="247px"></a>
-            <p><a href="/?busca=atg3">Clique aqui para ler</a></p>
+            <a href="/?busca=atg3"><img class="sample"  src="../public/images/thumb.png" width="200px" height="247px"></a>
+            <p><b>Sobrecarga emocional</b></p>
         </div>
 
-    </section>
+    </div>
 
-    <%- include('partials/footer.html') %>
-</body>
 
-</html>
+    </body>
+
+    </html>

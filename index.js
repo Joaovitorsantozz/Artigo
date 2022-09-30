@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/:slug', (req, res) => {
-    res.render('atg3',{});
+    res.render('home',{});
 });
 
 
